@@ -12,7 +12,7 @@ reach, engagement, format konten, dan tipe konten.
 ## 📊 Dashboard Overview
 
 ### Page 1 – Executive Summary
-![Page 1](assets/Analisis konten P4GN BNNK Karangasem-1.jpg)
+![Page 1](assets/analisis-p4gn-page-1.jpg)
 
 **Insight utama:**
 - Reach tinggi tidak selalu berarti engagement tinggi
@@ -20,14 +20,14 @@ reach, engagement, format konten, dan tipe konten.
 - Tipe konten edukatif lebih stabil dibanding viral
 
 ### Page 2 – Content Analysis
-![Page 2](assets/Analisis konten P4GN BNNK Karangasem-2.jpg)
+![Page 2](assets/analisis-p4gn-page-2.jpg)
 
 **Insight lanjutan:**
 - Engagement rate tertinggi berasal dari format X
 - Reach terbesar berasal dari tipe konten Y
 
 ### Page 3 – Top 10 content
-![Page 2](assets/Analisis konten P4GN BNNK Karangasem-3.jpg)
+![Page 3](assets/analisis-p4gn-page-3.jpg)
 
 **Insight lanjutan:**
 - top 10 konten selama saya magang disana
