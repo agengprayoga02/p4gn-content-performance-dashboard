@@ -9,12 +9,10 @@ reach, engagement, format konten, dan tipe konten.
 - Relasi: 1-to-Many
 - Measures terpisah (anti-BLANK, KPI-safe)
 
-![Model](assets/model.png)
-
 ## 📊 Dashboard Overview
 
 ### Page 1 – Executive Summary
-![Page 1](assets/page1.png)
+![Page 1](assets/Analisis konten P4GN BNNK Karangasem-1.jpg)
 
 **Insight utama:**
 - Reach tinggi tidak selalu berarti engagement tinggi
@@ -22,11 +20,17 @@ reach, engagement, format konten, dan tipe konten.
 - Tipe konten edukatif lebih stabil dibanding viral
 
 ### Page 2 – Content Analysis
-![Page 2](assets/page2.png)
+![Page 2](assets/Analisis konten P4GN BNNK Karangasem-2.jpg)
 
 **Insight lanjutan:**
 - Engagement rate tertinggi berasal dari format X
 - Reach terbesar berasal dari tipe konten Y
+
+### Page 3 – Top 10 content
+![Page 2](assets/Analisis konten P4GN BNNK Karangasem-3.jpg)
+
+**Insight lanjutan:**
+- top 10 konten selama saya magang disana
 
 ## 🎯 Recommendation
 - Gunakan format A untuk awareness
