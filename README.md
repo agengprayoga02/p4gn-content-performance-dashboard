@@ -11,20 +11,38 @@ menghasilkan rekomendasi strategi konten yang berbasis data.
 
 ---
 
-## 🗂️ Struktur File Proyek
+## 🗂️ Struktur Folder Proyek
 
-| File | Fungsi |
-|---|---|
-| `template_dashboard_p4gn_bnnk_karangasem.xlsx` | Data mentah (raw) hasil rekap manual selama magang — satu sheet tunggal, belum melalui proses pembersihan |
-| `data_processing_p4gn.ipynb` | Notebook Python (Pandas) untuk transformasi data: regenerasi Content_ID, klasifikasi performa, dan penentuan quadrant |
-| `dataset_final_dashboard_p4gn.xlsx` | Output antara — data setelah Content_ID distandarkan dan Performance_Label (kualitas engagement) dihitung |
-| `dataset_dashboard_p4gn_quadrant.xlsx` | Dataset final ternormalisasi (3 tabel relasional) — digunakan langsung sebagai sumber data Power BI |
-| `ERD Analisis konten P4gn.png` | Diagram relasi antar tabel (Entity Relationship Diagram) yang menjadi dasar data modeling di Power BI |
-| `Analisis konten P4GN BNNK Karangasem.pbix` | File dashboard Power BI — berisi seluruh data model, measure DAX, dan visual |
-| `Analisis konten P4GN BNNK Karangasem.pdf` | Ekspor dashboard dalam format PDF untuk pratinjau cepat tanpa perlu membuka Power BI |
-| `Analisis-konten-P4GN-page-1.jpg` | Screenshot Page 1 — Executive Insight |
-| `Analisis-konten-P4GN-page-2.jpg` | Screenshot Page 2 — Strategic Insight |
-| `Analisis-konten-P4GN-page-3.jpg` | Screenshot Page 3 — Content Detail (Top 10) |
+```
+├── assets/
+│   ├── Analisis-konten-P4GN-page-1.jpg
+│   ├── Analisis-konten-P4GN-page-2.jpg
+│   ├── Analisis-konten-P4GN-page-3.jpg
+│   └── ERD-Analisis-konten-P4GN.png
+├── dashboard/
+│   └── analisis-konten-p4gn-bnnk-karangasem.pbix
+├── data/
+│   ├── template-dashboard-p4gn-bnnk-karangasem.xlsx
+│   ├── data-processing-p4gn.ipynb
+│   ├── dataset-final-dashboard-p4gn.xlsx
+│   └── dataset-dashboard-p4gn-quadrant.xlsx
+├── report/
+│   └── analisis-konten-p4gn-bnnk-karangasem.pdf
+└── README.md
+```
+
+| File | Lokasi | Fungsi |
+|---|---|---|
+| `template-dashboard-p4gn-bnnk-karangasem.xlsx` | `data/` | Data mentah (raw) hasil rekap manual selama magang — satu sheet tunggal, belum melalui proses pembersihan |
+| `data-processing-p4gn.ipynb` | `data/` | Notebook Python (Pandas) untuk transformasi data: regenerasi Content_ID, klasifikasi performa, dan penentuan quadrant |
+| `dataset-final-dashboard-p4gn.xlsx` | `data/` | Output antara — data setelah Content_ID distandarkan dan Performance_Label (kualitas engagement) dihitung |
+| `dataset-dashboard-p4gn-quadrant.xlsx` | `data/` | Dataset final ternormalisasi (3 tabel relasional) — digunakan langsung sebagai sumber data Power BI |
+| `ERD-Analisis-konten-P4GN.png` | `assets/` | Diagram relasi antar tabel (Entity Relationship Diagram) yang menjadi dasar data modeling di Power BI |
+| `analisis-konten-p4gn-bnnk-karangasem.pbix` | `dashboard/` | File dashboard Power BI — berisi seluruh data model, measure DAX, dan visual |
+| `analisis-konten-p4gn-bnnk-karangasem.pdf` | `report/` | Ekspor dashboard dalam format PDF untuk pratinjau cepat tanpa perlu membuka Power BI |
+| `Analisis-konten-P4GN-page-1.jpg` | `assets/` | Screenshot Page 1 — Executive Insight |
+| `Analisis-konten-P4GN-page-2.jpg` | `assets/` | Screenshot Page 2 — Strategic Insight |
+| `Analisis-konten-P4GN-page-3.jpg` | `assets/` | Screenshot Page 3 — Content Detail (Top 10) |
 
 ---
 
@@ -38,7 +56,7 @@ dari tabel dimensi ke kedua tabel fakta):
 - **fact_performance** — metrik mentah: Views, Reach, Like, Comment, Save, Share, Total_Engagement
 - **fact_analysis** — hasil kalkulasi: Engagement_Rate, Performance_Label, Performance_Distribution, Performance_Quadrant
 
-![ERD](ERD-Analisis=konten=P4gn.png)
+![ERD](assets/ERD-Analisis-konten-P4GN.png)
 
 Pemisahan ini mencegah double-counting saat measure dijalankan lintas
 dimensi, dan memastikan setiap visual menghasilkan agregasi yang konsisten.
@@ -147,7 +165,7 @@ Avg ER by Pilar P4GN, Performance Quadrant Distribution, FYP vs Non-FYP.
 ### Page 2 — Strategic Insight
 *Fokus: faktor apa yang memengaruhi performa konten?*
 
-![Page 2](asssets/Analisis-konten-P4GN-page-2.jpg)
+![Page 2](assets/Analisis-konten-P4GN-page-2.jpg)
 
 **Isi:** Avg ER by Format (donut), Total Reach by Tipe Konten (pie).
 
@@ -192,10 +210,10 @@ Avg ER by Pilar P4GN, Performance Quadrant Distribution, FYP vs Non-FYP.
 
 ## 📂 Cara Menggunakan
 
-1. Buka `Analisis konten P4GN BNNK Karangasem.pbix` dengan Power BI Desktop
-   untuk eksplorasi interaktif
-2. Atau lihat `Analisis konten P4GN BNNK Karangasem.pdf` untuk pratinjau
-   cepat tanpa perlu instalasi Power BI
+1. Buka `dashboard/analisis-konten-p4gn-bnnk-karangasem.pbix` dengan
+   Power BI Desktop untuk eksplorasi interaktif
+2. Atau lihat `report/analisis-konten-p4gn-bnnk-karangasem.pdf` untuk
+   pratinjau cepat tanpa perlu instalasi Power BI
 3. Source data mentah dan proses transformasi tersedia di
-   `template_dashboard_p4gn_bnnk_karangasem.xlsx` dan
-   `data_processing_p4gn.ipynb` untuk keperluan audit/reproduksi
+   `data/template-dashboard-p4gn-bnnk-karangasem.xlsx` dan
+   `data/data-processing-p4gn.ipynb` untuk keperluan audit/reproduksi
