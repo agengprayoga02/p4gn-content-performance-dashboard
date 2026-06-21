@@ -1,4 +1,4 @@
-# powerbi-dashboard-p4gn
+# Analisis Konten P4GN Dashboard Power BI
 ## 📌 Overview
 Dashboard ini bertujuan menganalisis performa konten P4GN berdasarkan
 reach, engagement, format konten, dan tipe konten.
