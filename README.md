@@ -150,7 +150,7 @@ Avg Reach per Content = AVERAGE(fact_performance[Reach])
 ### Page 1 — Executive Insight
 *Fokus: seberapa efektif konten P4GN secara strategis?*
 
-![Page 1](assets/analisis-konten-P4GN-page-1.jpg)
+![Page 1](assets/analisis-P4GN-page-1.jpg)
 
 **Isi:** KPI Cards (Total Content, Total Reach, ER Reach, Viral Content),
 Avg ER by Pilar P4GN, Performance Quadrant Distribution, FYP vs Non-FYP.
@@ -165,7 +165,7 @@ Avg ER by Pilar P4GN, Performance Quadrant Distribution, FYP vs Non-FYP.
 ### Page 2 — Strategic Insight
 *Fokus: faktor apa yang memengaruhi performa konten?*
 
-![Page 2](assets/analisis-konten-P4GN-page-2.jpg)
+![Page 2](assets/analisis-P4GN-page-2.jpg)
 
 **Isi:** Avg ER by Format (donut), Total Reach by Tipe Konten (pie).
 
@@ -177,7 +177,7 @@ Avg ER by Pilar P4GN, Performance Quadrant Distribution, FYP vs Non-FYP.
 ### Page 3 — Content Detail
 *Fokus: konten mana yang terbukti paling berhasil?*
 
-![Page 3](assets/analisis-konten-P4GN-page-3.jpg)
+![Page 3](assets/analisis-P4GN-page-3.jpg)
 
 **Isi:** Top 10 Konten by Total Reach.
 
